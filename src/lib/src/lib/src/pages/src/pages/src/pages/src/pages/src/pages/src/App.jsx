@@ -21,3 +21,5 @@ const App = () => {
 };
 
 export default App;
+import PaymentMethods from "./pages/PaymentMethods";
+import PrivacyPolicy from "./pages/PrivacyPolicy";

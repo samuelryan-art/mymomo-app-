@@ -15,6 +15,27 @@ const App = () => {
         <Route path="/cards" element={<Cards />} />
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/settings" element={<Settings />} />
+<Routes>
+  <Route path="/" element={<Login />} />
+  <Route path="/dashboard" element={<Dashboard />} />
+  <Route path="/cards" element={<Cards />} />
+  <Route path="/marketplace" element={<Marketplace />} />
+  <Route path="/settings" element={<Settings />} />
+
+  {/* New routes */}
+  <Route path="/payment-methods" element={<PaymentMethods />} />
+  <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+</Routes>
+
+
+
+
+
+
+
+
+
+        
       </Routes>
     </Router>
   );
